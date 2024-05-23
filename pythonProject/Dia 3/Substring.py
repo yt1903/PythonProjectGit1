@@ -3,6 +3,7 @@ print( mi_variable[2:4])
 print( mi_variable[2:])
 print( mi_variable[:4])
 print( mi_variable[1:8:3])
+print(mi_variable[::-1].upper())
 
 frase = "Controlar la complejidad es la esencia de la programación"
 posicion = frase.index(' ')
@@ -23,6 +24,7 @@ entre las lluvias"""
 print(haiku)
 print('mojadda' not in haiku)
 
-palabra="amor"
+palabra="%,kamor"
 print(len(palabra))
 
+print(palabra.lstrip('%,'))

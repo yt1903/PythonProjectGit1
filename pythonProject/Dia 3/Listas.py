@@ -12,6 +12,14 @@ print(mi_lista + mi_lista_2)
 mi_lista_3 = mi_lista+mi_lista_2
 print(mi_lista_3)
 
+mi_lista_4 = mi_lista_3
+mi_set= set(mi_lista_4)
+print('mi_set')
+print(mi_set)
+mi_lista_4 = list(mi_set)
+print(mi_lista_4.remove(max(mi_lista_4)))
+print(mi_lista_4)
+
 mi_lista_3[0]='alfa'
 print(mi_lista_3)
 
@@ -48,5 +56,9 @@ lista = [n if n*2>10 else 'no' for n in range(0,21,2 ) ]
 print(lista)
 
 pies = [10,20,30]
+pies.insert(2,89)
+print(pies)
+print(pies.index(20))
 metros = [n*3.281 for n in pies]
 print(metros)
+metros.clear()

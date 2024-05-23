@@ -7,6 +7,11 @@ otro_set= {1,2,3}
 print(type(otro_set))
 print(otro_set)
 
+tercer_set = mi_set.isdisjoint(otro_set)
+print(tercer_set)
+print(type(tercer_set))
+
+
 otro_set= {1,2,3,1,1,3,'9'}
 print(type(otro_set))
 print(otro_set)
