@@ -43,8 +43,7 @@ def mi_generador2():
     pueden ponerse varios yields
     :return: 
     """
-    x = 1
-    yield x
+
 
     x += 1
     yield x
