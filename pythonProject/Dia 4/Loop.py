@@ -14,9 +14,9 @@ for letra in palabra:
     print(letra)
 
 monedas = 5
-while monedas>0:
-    print(f"Tengo {monedas} monedas")
-    monedas = monedas -1
+while monedas > 0:
+    print(f'Tengo {monedas} monedas')
+    monedas -= 1
 else: print("Se acabó")
 
 #("dentro del while estan pass cuando no sabemos el codigo que se va a poner"
